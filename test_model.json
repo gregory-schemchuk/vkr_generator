@@ -1,0 +1,40 @@
+[
+  {
+    "name": "user",
+    "fields": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "score",
+        "type": "number"
+      },
+      {
+        "name": "birthDate",
+        "type": "date"
+      },
+      {
+        "name": "comment",
+        "type": "object"
+      }
+    ]
+  },
+  {
+    "name": "comment",
+    "fields": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "score",
+        "type": "number"
+      },
+      {
+        "name": "birthDate",
+        "type": "date"
+      }
+    ]
+  }
+]

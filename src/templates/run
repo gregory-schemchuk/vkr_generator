@@ -1,0 +1,4 @@
+npm install
+npx prisma migrate dev
+migration_1
+npm run start
