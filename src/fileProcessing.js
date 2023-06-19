@@ -28,6 +28,7 @@ function createErrors(rootDir, entityName) {
 
 function createAppConfig(rootDir, entityName) {
     fsextra.copySync(__dirname + "/templates/appConfig.ts", getEntityDir(rootDir, entityName) + separator + libDir + separator + "appConfig.ts");
+    fsextra.copySync(__dirname + "/templates/Dockerfile", getEntityDir(rootDir, entityName, true) + separator + "Dockerfile");
 }
 
 function createDbClientFile(rootDir, entityName) {
